@@ -1,4 +1,5 @@
-def reverse_each_word(word)
-  nums.select do |x|
-    x.even?
+def reverse_each_word(words)
+  words.select do |word|
+    word.reverse
   end
+end
